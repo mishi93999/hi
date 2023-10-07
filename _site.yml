@@ -1,0 +1,37 @@
+name: "Michelle's website"
+output_dir: "."
+navbar:
+  title: "🧑🏻 Michelle Lee 👋"
+  right:
+    - text: "CV"
+      href: Michelle Lee - Curriculum vitae.pdf
+    - text: "publications"
+      href: publications.html
+    - text: "projects"
+      menu:
+        - text: "data science for social good"
+          href: pr_dssg.html
+        - text: "stroke prediction"
+          href: pr_stroke_prediction.html
+        - text: "COVID19 mobility trends"
+          href: pr_mobility_covid19.html
+    - text: "writing samples"
+      menu:
+        - text: "academic paper"
+          href: ws_psychosocial.html
+        - text: "digital surveillance report"
+          href: Michelle Lee - Digital Surveillance.pdf
+        - text: "epidemiology report"
+          href: ws_CMR.html
+        - text: "project proposal"
+          href: ws_srh.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<mishi9399@gmail.com>
+    - icon: fa-github fa-lg
+      href: http://github.com/mjl2241/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/mjl2241/  
+
+output:
+ html_document:
+   css: style.css
